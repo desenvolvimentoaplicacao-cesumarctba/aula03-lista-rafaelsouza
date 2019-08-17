@@ -1,0 +1,9 @@
+<?php
+$far = readline ("Informe a temperatura em ºF:");
+
+$c = (($far–32)*5)/9;
+$k = $c+273.15;
+
+echo ("A temperatura convertida em Kelvin: $k K!");
+
+?>
