@@ -1,0 +1,9 @@
+<?php
+
+$c = readline ("Informe a temperatura em ºC:");
+
+$k = $c+273.15;
+
+echo ("A temperatura convertida em Kelvin: $k K!");
+
+?>
