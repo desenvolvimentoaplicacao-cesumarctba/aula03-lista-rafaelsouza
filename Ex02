@@ -1,0 +1,8 @@
+<?php
+$c = readline ("Informe a temperatura em ºC:");
+
+$f = (9*$c+160 )/5;
+
+echo ("A temperatura convertida em Fahrenheit é: $f ºF!");
+
+?>
